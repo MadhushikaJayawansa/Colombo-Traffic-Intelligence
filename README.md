@@ -33,6 +33,11 @@ Screenshots:
 
 [Colombo Traffic Overview](C:\Users\Nanny\Desktop\archive (3)\traffic\Colombo Traffic Intelligence\Colombo-Traffic-Intelligence\dashboard\screenshots\Colombo Traffic Overview 1.PNG)
 
+<a href="dashboard\screenshots\Colombo Traffic Overview 1.PNG">
+  <img src="Colombo Traffic Overview 1.PNG" alt="Colombo Traffic Overview">
+</a>
+
+
 
 [Congestion Cost & Priority](C:\Users\Nanny\Desktop\archive (3)\traffic\Colombo Traffic Intelligence\Colombo-Traffic-Intelligence\dashboard\screenshots\Congestion Cost & Priority 1.PNG)
 
