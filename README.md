@@ -29,20 +29,21 @@ Commute Patterns & Context — Explores morning/evening congestion and direction
 
 Dashboard access: Open dashboard/The_Price_of_Congestion_Colombo.twbx to explore the packaged Tableau workbook.
 
-Screenshots:
+[Download the Tableau Workbook (.twbx)](The_Price_of_Congestion_Colombo.twbx)
 
-[Colombo Traffic Overview](C:\Users\Nanny\Desktop\archive (3)\traffic\Colombo Traffic Intelligence\Colombo-Traffic-Intelligence\dashboard\screenshots\Colombo Traffic Overview 1.PNG)
+Screenshots:
 
 <a href="dashboard\screenshots\Colombo Traffic Overview 1.PNG">
   <img src="Colombo Traffic Overview 1.PNG" alt="Colombo Traffic Overview">
 </a>
 
+<a href="dashboard\screenshots\Congestion Cost & Priority 1.PNG">
+  <img src="Congestion Cost & Priority 1.PNG" alt="Congestion Cost & Priority">
+</a>
 
-
-[Congestion Cost & Priority](C:\Users\Nanny\Desktop\archive (3)\traffic\Colombo Traffic Intelligence\Colombo-Traffic-Intelligence\dashboard\screenshots\Congestion Cost & Priority 1.PNG)
-
-
-[Commute Patterns & Context](C:\Users\Nanny\Desktop\archive (3)\traffic\Colombo Traffic Intelligence\Colombo-Traffic-Intelligence\dashboard\screenshots\WHERE CONGESTION COSTS THE MOST.PNG)
+<a href="dashboard\screenshots\WHERE CONGESTION COSTS THE MOST.PNG">
+  <img src="WHERE CONGESTION COSTS THE MOST.PNG" alt="Commute Patterns & Context">
+</a>
 
 
 ## Data & Tools
