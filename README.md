@@ -3,16 +3,29 @@
 
 # Colombo-Traffic-Intelligence
 
-## Measuring traffic delays, congestion patterns, , fuel impact, and estimated economic cost  from 2013 to 2019
+## Traffic Congestion, Speed Loss & Commuter Impact  from 2013 to 2019
+
+A data analytics project investigating traffic congestion across selected road corridors in Colombo, Sri Lanka.
 
 
-## Project Overview
+
+## 01.Project Overview
 
 Sri Lanka’s transport authorities are reviewing how to allocate limited resources to tackle traffic congestion in Colombo. They need to identify which road corridors experience the most severe congestion and where commuters may be losing the most time.
 
 As a data analyst, my role in this project is to analyse historical traffic data, compare congestion and speed loss across corridors, and estimate the time cost of a 10 km vehicle trip. The findings aim to help decision-makers identify priority areas for further investigation and more informed traffic management planning.
 
-## Key Findings
+## 02.Executive Summary
+
+The analysis focuses on three questions:
+
+Which selected corridors have the highest recorded congestion?
+
+Where is the estimated additional travel-time cost greatest?
+
+How do recorded morning and evening congestion levels differ?
+
+## 03.Key Findings
 
 Union Place / Ibbanwala Link: Recorded an average congestion index of 4.83, speed loss of 69.05%, and estimated time cost of approximately LKR 690 per 10 km vehicle trip. This corridor is a candidate for further congestion investigation.
 
@@ -20,17 +33,34 @@ T.B. Jayah Mawatha / Darley Road: Recorded an average congestion index of 5.00, 
 
 Morning vs evening congestion: Havelock/Pamankada recorded an evening-minus-morning congestion difference of approximately +1 index point. This suggests that commute-period differences should be considered when investigating traffic management needs.
 
-## Tableau Dashboards
 
-The project includes three interactive dashboards:
+These findings describe the available observations and modelled costs, not the entire Colombo road network.
 
-Colombo Traffic Overview — Compares corridor congestion, peak and off-peak speeds, speed loss, morning/evening congestion, and estimated time cost.
+## 3.1Visual Insights
 
-Congestion Cost & Priority — Highlights estimated time costs and corridors with high congestion and speed loss.
+### 3.1.1 Corridor Cost Comparison
 
-Commute Patterns & Context — Explores morning/evening congestion and directional asymmetry.
+Business question: Which road corridors have the greatest estimated time cost for a 10 km vehicle trip?
 
-Dashboard access: Open dashboard/The_Price_of_Congestion_Colombo.twbx to explore the packaged Tableau workbook.
+<a href="images\Corridor Cost Comparison.PNG">
+  <img src="Corridor Cost Comparison.PNG" >
+</a>
+<br>
+
+The horizontal bar chart compares the estimated additional travel-time cost across selected corridors. The estimates are calculated from the difference between observed peak and off-peak travel times, multiplied by an assumed value of time of LKR 500 per hour.
+
+### 3.1.2 Congestion and Speed Loss
+
+
+
+This visual explores how recorded congestion levels compare with peak-period speed loss across the selected corridors. Any observed association should not be interpreted as proof of causation.
+
+### 3.1.3 Morning vs. Evening Patterns
+
+
+
+This comparison highlights differences between recorded morning and evening congestion. It represents the available observations rather than a universal daily traffic pattern.
+
 
 [Download the Tableau Workbook (.twbx)](The_Price_of_Congestion_Colombo.twbx)
 
