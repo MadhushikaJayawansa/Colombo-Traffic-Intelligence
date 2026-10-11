@@ -1,4 +1,5 @@
-![alt text](traffic.jfif)
+
+
 
 # Colombo-Traffic-Intelligence
 
