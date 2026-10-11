@@ -1,3 +1,5 @@
+![alt text](traffic.jfif)
+
 # Colombo-Traffic-Intelligence
 
 ## Measuring traffic delays, congestion patterns, , fuel impact, and estimated economic cost  from 2013 to 2019
