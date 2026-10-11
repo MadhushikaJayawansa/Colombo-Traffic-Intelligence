@@ -43,7 +43,7 @@ These findings describe the available observations and modelled costs, not the e
 Business question: Which road corridors have the greatest estimated time cost for a 10 km vehicle trip?
 
 <div align="center">
-  <img width="320px" src="images\Corridor Cost Comparison.PNG" />
+  <img width="1000px" src="images\Corridor Cost Comparison.PNG" />
 </div>
 
 The horizontal bar chart compares the estimated additional travel-time cost across selected corridors. The estimates are calculated from the difference between observed peak and off-peak travel times, multiplied by an assumed value of time of LKR 500 per hour.
