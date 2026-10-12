@@ -69,7 +69,7 @@ These values are illustrative estimates, not observed financial losses. They rep
 Business question: Do corridors with higher congestion also tend to experience greater peak-period speed loss?
 
 <div align="center">
-  <img width="1000px" src="images\Congestion and Speed Loss.PNG" />
+  <img width="1000px" src="images\Congestion and Speed Loss 1.PNG" />
 </div>
 <br>
 
@@ -92,29 +92,31 @@ A congestion index alone does not fully describe how much slower traffic moves d
 The visual describes an association between recorded measures; it does not establish that congestion causes a particular amount of speed loss. The historical dataset contains gaps and limited variation over time, so the results should not be presented as proof of a long-term relationship. Cotta Road / Rajagiriya is excluded from speed-loss comparisons because its recorded peak and off-peak speeds are identical.
 
 
-### 3.1.3  Morning vs. Evening Congestion
+###### 3.3 Morning vs. Evening Congestion
 
-Business question: Which corridors show higher recorded congestion in the evening than in the morning, and which show the opposite pattern?
+**Business question:** Does recorded congestion differ between morning and evening commute periods across selected Colombo corridors?
 
+<div align="center">
+  <img width="1000px" src="images\Morning vs Evening Congestion.PNG" />
+</div>
+<br>
 
+This chart compares the recorded business-hour morning and evening congestion indices for each corridor. Comparing the two periods helps identify where congestion levels are similar and where a larger difference may warrant further investigation.
 
-This comparison examines recorded morning and evening congestion levels for each selected corridor. A diverging bar chart can make the difference easier to interpret by showing the evening-minus-morning congestion score: positive values indicate higher evening congestion, while negative values indicate higher morning congestion.
+**What the analysis reveals**
 
-#### What the analysis reveals
+- **T.B. Jayah Mawatha (Darley Road)** records a congestion index of 5.00 in both the morning and evening periods, indicating similarly high recorded congestion.
+- **Union Place / Ibbanwala Link** also records high congestion in both periods, with a morning index of 4.50 and an evening index of 5.00.
+- **Havelock Road / Pamankada** records a morning index of 3.75 and an evening index of 4.75, a difference of one index point.
+- Other corridors show different levels of congestion across the two periods, suggesting that commute patterns are not uniform across the selected road network.
 
-Havelock / Pamankada has an evening-minus-morning congestion difference of approximately +1 index point.
+**Why it matters**
 
-A2 Galle Road shows a difference of approximately +0.75 index points.
+Comparing commute periods provides more context than an overall corridor average alone. Corridors with consistently high congestion may require further investigation across both periods, while larger morning–evening differences can help guide more targeted traffic monitoring.
 
-A1 Kandy Road / Peliyagoda has a difference of approximately −0.5 index points, indicating higher recorded morning congestion than evening congestion.
+**How to interpret it**
 
-#### Why it matters
-
-Congestion does not necessarily affect every corridor in the same way across commute periods. These differences can help identify where further investigation into signal timing, junction operations, traffic flows and peak-period management may be useful.
-
-#### How to interpret it
-
-The differences describe the available historical observations, not a universal daily pattern. The data does not establish why one period is more congested than another, and the results should be validated with more recent, consistently collected traffic data before interventions are recommended.
+The chart reflects the available historical observations and should not be treated as a universal pattern for every weekday or season. Differences do not establish their causes. Updated, consistently collected traffic data would be needed to validate these patterns before specific traffic-management changes are recommended.
 
 ### Overall Insight
 
