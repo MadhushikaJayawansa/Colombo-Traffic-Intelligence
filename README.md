@@ -92,7 +92,7 @@ A congestion index alone does not fully describe how much slower traffic moves d
 The visual describes an association between recorded measures; it does not establish that congestion causes a particular amount of speed loss. The historical dataset contains gaps and limited variation over time, so the results should not be presented as proof of a long-term relationship. Cotta Road / Rajagiriya is excluded from speed-loss comparisons because its recorded peak and off-peak speeds are identical.
 
 
-###### 3.3 Morning vs. Evening Congestion
+### 3.1.3 Morning vs. Evening Congestion
 
 **Business question:** Does recorded congestion differ between morning and evening commute periods across selected Colombo corridors?
 
