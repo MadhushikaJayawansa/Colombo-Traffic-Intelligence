@@ -9,13 +9,13 @@ A data analytics project investigating traffic congestion across selected road c
 
 
 
-## 01.Project Overview
+## 01. Project Overview
 
 Sri Lanka’s transport authorities are reviewing how to allocate limited resources to tackle traffic congestion in Colombo. They need to identify which road corridors experience the most severe congestion and where commuters may be losing the most time.
 
 As a data analyst, my role in this project is to analyse historical traffic data, compare congestion and speed loss across corridors, and estimate the time cost of a 10 km vehicle trip. The findings aim to help decision-makers identify priority areas for further investigation and more informed traffic management planning.
 
-## 02.Executive Summary
+## 02. Executive Summary
 
 The analysis focuses on three questions:
 
@@ -25,7 +25,7 @@ Where is the estimated additional travel-time cost greatest?
 
 How do recorded morning and evening congestion levels differ?
 
-## 03.Key Findings
+## 03. Key Findings
 
 Union Place / Ibbanwala Link: Recorded an average congestion index of 4.83, speed loss of 69.05%, and estimated time cost of approximately LKR 690 per 10 km vehicle trip. This corridor is a candidate for further congestion investigation.
 
@@ -36,29 +36,97 @@ Morning vs evening congestion: Havelock/Pamankada recorded an evening-minus-morn
 
 These findings describe the available observations and modelled costs, not the entire Colombo road network.
 
-## 3.1Visual Insights
+## 3.1 Visual Insights
 
 ### 3.1.1 Corridor Cost Comparison
 
-Business question: Which road corridors have the greatest estimated time cost for a 10 km vehicle trip?
+#### Business question: Which road corridors have the greatest estimated time cost for a 10 km vehicle trip?
 
 <div align="center">
   <img width="1000px" src="images\Corridor Cost Comparison.PNG" />
 </div>
-
+<br>
 The horizontal bar chart compares the estimated additional travel-time cost across selected corridors. The estimates are calculated from the difference between observed peak and off-peak travel times, multiplied by an assumed value of time of LKR 500 per hour.
+
+#### What the analysis reveals
+
+Union Place / Ibbanwala Link has an estimated average time cost of approximately LKR 690 per 10 km vehicle trip.
+
+T.B. Jayah Mawatha / Darley Road follows at approximately LKR 600 per 10 km vehicle trip.
+
+These results identify corridors where the difference between peak and off-peak travel times translates into a comparatively high modelled cost.
+
+#### Why it matters
+
+A corridor with a higher estimated time cost may warrant closer investigation because peak-period delays can impose a greater time burden on road users under the assumptions used in this model. Transport planners could validate these findings using updated travel-time surveys before deciding where to prioritise interventions.
+
+#### How to interpret it
+
+These values are illustrative estimates, not observed financial losses. They represent a 10 km vehicle trip under the project's assumptions and should not be multiplied into a citywide economic-loss estimate without reliable traffic volumes and additional supporting data.
 
 ### 3.1.2 Congestion and Speed Loss
 
+Business question: Do corridors with higher congestion also tend to experience greater peak-period speed loss?
+
+<div align="center">
+  <img width="1000px" src="images\Congestion and Speed Loss.PNG" />
+</div>
+<br>
+
+This visual compares the average recorded congestion index with the percentage reduction in peak speed relative to off-peak speed. It provides a complementary perspective to the cost chart by examining traffic conditions rather than their modelled monetary impact.
+
+#### What the analysis reveals
+
+Union Place / Ibbanwala Link combines a high average congestion index of 4.83 with a speed loss of approximately 69.05%.
+
+T.B. Jayah Mawatha / Darley Road records an average congestion index of 5.00 and a speed loss of 60%.
+
+Comparing both measures helps distinguish corridors that experience high recorded congestion and substantial speed reduction from corridors where the two indicators may tell a different story.
+
+#### Why it matters
+
+A congestion index alone does not fully describe how much slower traffic moves during peak periods. Reviewing it alongside speed loss provides additional evidence for screening corridors for further investigation.
+
+#### How to interpret it
+
+The visual describes an association between recorded measures; it does not establish that congestion causes a particular amount of speed loss. The historical dataset contains gaps and limited variation over time, so the results should not be presented as proof of a long-term relationship. Cotta Road / Rajagiriya is excluded from speed-loss comparisons because its recorded peak and off-peak speeds are identical.
 
 
-This visual explores how recorded congestion levels compare with peak-period speed loss across the selected corridors. Any observed association should not be interpreted as proof of causation.
+### 3.1.3  Morning vs. Evening Congestion
 
-### 3.1.3 Morning vs. Evening Patterns
+Business question: Which corridors show higher recorded congestion in the evening than in the morning, and which show the opposite pattern?
 
 
 
-This comparison highlights differences between recorded morning and evening congestion. It represents the available observations rather than a universal daily traffic pattern.
+This comparison examines recorded morning and evening congestion levels for each selected corridor. A diverging bar chart can make the difference easier to interpret by showing the evening-minus-morning congestion score: positive values indicate higher evening congestion, while negative values indicate higher morning congestion.
+
+#### What the analysis reveals
+
+Havelock / Pamankada has an evening-minus-morning congestion difference of approximately +1 index point.
+
+A2 Galle Road shows a difference of approximately +0.75 index points.
+
+A1 Kandy Road / Peliyagoda has a difference of approximately −0.5 index points, indicating higher recorded morning congestion than evening congestion.
+
+#### Why it matters
+
+Congestion does not necessarily affect every corridor in the same way across commute periods. These differences can help identify where further investigation into signal timing, junction operations, traffic flows and peak-period management may be useful.
+
+#### How to interpret it
+
+The differences describe the available historical observations, not a universal daily pattern. The data does not establish why one period is more congested than another, and the results should be validated with more recent, consistently collected traffic data before interventions are recommended.
+
+### Overall Insight
+
+Taken together, the visuals provide three complementary perspectives:
+
+Estimated time cost helps compare the modelled commuter time burden across corridors.
+
+Congestion and speed loss helps examine whether high recorded congestion coincides with substantial peak-period speed reduction.
+
+Morning and evening differences helps identify corridors where the balance of congestion varies by commute period.
+
+These findings provide a starting point for prioritising further investigation. They are not a substitute for current traffic surveys, verified road-segment coverage or a comprehensive economic assessment of congestion in Colombo.
 
 
 [Download the Tableau Workbook (.twbx)](The_Price_of_Congestion_Colombo.twbx)
