@@ -133,20 +133,6 @@ These findings provide a starting point for prioritising further investigation. 
 
 [See The Price of Congestion: Colombo](dashboard/tableau%20dashboard/The_Price_of_Congestion_Colombo.twbx)
 
-Screenshots:
-
-<a href="dashboard\screenshots\Colombo Traffic Overview 1.PNG">
-  <img src="Colombo Traffic Overview 1.PNG" alt="Colombo Traffic Overview">
-</a>
-<br>
-<a href="dashboard\screenshots\Congestion Cost & Priority 1.PNG">
-  <img src="Congestion Cost & Priority 1.PNG" alt="Congestion Cost & Priority">
-</a>
-<br>
-<a href="dashboard\screenshots\WHERE CONGESTION COSTS THE MOST.PNG">
-  <img src="WHERE CONGESTION COSTS THE MOST.PNG" alt="Commute Patterns & Context">
-</a>
-
 
 ## Data & Tools
 
