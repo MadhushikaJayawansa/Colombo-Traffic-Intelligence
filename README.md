@@ -130,17 +130,10 @@ Morning and evening differences helps identify corridors where the balance of co
 
 These findings provide a starting point for prioritising further investigation. They are not a substitute for current traffic surveys, verified road-segment coverage or a comprehensive economic assessment of congestion in Colombo.
 
+## View  The Price of Congestion Tableau Dashboard
+[ The Price of Congestion: Colombo](dashboard/tableau%20dashboard/The_Price_of_Congestion_Colombo.twbx)
 
-[See The Price of Congestion: Colombo](dashboard/tableau%20dashboard/The_Price_of_Congestion_Colombo.twbx)
 
-
-## Data & Tools
-
-Data Sources
-
-Traffic observations: Historical corridor-level observations from September 2014 to December 2019, with gaps in recorded periods.
-
-Fuel-price data: Historical fuel prices used as context for the cost model.
 
 ## Tools Used
 
@@ -156,32 +149,6 @@ Tableau Desktop: Interactive dashboard development.
 
 GitHub: Project documentation and version control.
 
-## Metrics & Methodology
-
-
-|      Metric         |          Definition                                |            Important caveat          |
-|-------------------------|----------------------------------------------------|--------------------------------------|
-| Congestion index        | Average recorded congestion index by corridor                  | Reflects available historical observations from September 2014 to December 2019, with gaps in the data. |
-| Speed loss (%)          | Reduction in peak speed relative to off-peak speed             | Requires valid peak and off-peak speeds; corridors with identical speeds are excluded from speed-loss comparisons. |
-| Estimated time cost     | Additional travel time multiplied by the assumed value of time | Illustrative estimate per 10 km vehicle trip, not measured financial loss. |
-| Corridor priority score | 60% congestion percentile + 40% speed-loss percentile          | Relative project-specific score, not an official government ranking. |
-
-## Estimated Cost Assumptions
-
-Trip distance: 10 km
-
-Value of time: LKR 500 per hour
-
-Fuel economy: 12 km per litre
-
-Assumed additional fuel consumption: 15%
-
-Fuel-price benchmark: Petrol 92
-
-Estimated delay (hours) = (10 / peak speed) − (10 / off-peak speed)
-
-Estimated time cost (LKR) = Estimated delay × LKR 500 per hour
-
 
 ##  Recommendations
 
@@ -190,4 +157,6 @@ Investigate priority corridors: Conduct updated traffic surveys on Union Place /
 Improve traffic monitoring: Collect consistent peak and off-peak speed observations across corridors to support more reliable comparisons over time.
 
 Strengthen future analysis: Match traffic and weather records by date and location, and use more detailed road-level incident data where available, before drawing stronger conclusions about causes or safety outcomes.
+
+
 
